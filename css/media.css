@@ -1,0 +1,36 @@
+@media (max-width: 1360px) {
+  .social {
+    width: 780px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .social {
+    width: 650px;
+  }
+  .social h2 {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .social {
+    width: 550px;
+  }
+  .social h2 {
+    font-size: 65px;
+  }
+  .volume {
+    top: auto;
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 920px) {
+  .social {
+    width: 450px;
+  }
+  .social h2 {
+    font-size: 55px;
+  }
+}

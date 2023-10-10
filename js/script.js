@@ -1,5 +1,7 @@
+// MATRIX ANIMATE
+
 const FONT_SIZE = 16;
-const GREEN = "#00d743";
+const GREEN = "#00ff37";
 const SYMBOLS = "A BC DE FG HI JK LM NO PQ RS TU VW XY Z";
 const SYMBOL_DROP_PROBABILITY = 0.98;
 
@@ -70,3 +72,31 @@ function resetCanvas() {
 window.addEventListener("resize", resetCanvas);
 
 animate();
+
+// MATRIX ANIMATE
+
+// AUDIO
+
+const audioElement = document.querySelector("audio");
+
+const stopButton = document.getElementById("volumeButton");
+
+let isAudioPlaying = false;
+
+stopButton.addEventListener("click", () => {
+  if (isAudioPlaying) {
+    audioElement.pause();
+    isAudioPlaying = false;
+    stopButton.classList.add("disabled");
+  } else {
+    audioElement.play();
+    isAudioPlaying = true;
+    stopButton.classList.remove("disabled");
+  }
+});
+
+audioElement.addEventListener("ended", () => {
+  isAudioPlaying = false;
+});
+
+// AUDIO
