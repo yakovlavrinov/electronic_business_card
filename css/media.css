@@ -64,6 +64,8 @@
   .container {
     top: 50%;
     flex-direction: column-reverse;
+    margin: 15px;
+    transform: translate(-55%, -50%);
     gap: 10px;
   }
   .avatar__contacts {
