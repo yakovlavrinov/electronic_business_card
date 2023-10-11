@@ -34,3 +34,38 @@
     font-size: 55px;
   }
 }
+
+@media (max-width: 850px) {
+  .social {
+    width: 300px;
+  }
+  .social h2 {
+    font-size: 35px;
+  }
+
+  .social a {
+    margin: 0 20%;
+  }
+}
+
+@media (max-width: 690px) {
+  .none {
+    display: none;
+  }
+
+  .social h2 {
+    line-height: 70px;
+  }
+
+  .social a {
+    margin: 0 20%;
+  }
+
+  .container {
+    top: 50%;
+    flex-direction: column-reverse;
+  }
+  .avatar__contacts {
+    margin: auto;
+  }
+}
