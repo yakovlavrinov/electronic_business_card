@@ -58,7 +58,8 @@ function animate() {
 
 function resetCanvas() {
   canvas.width = document.documentElement.clientWidth;
-  canvas.height = document.documentElement.clientHeight;
+  // canvas.height = document.documentElement.clientHeight;
+  canvas.height = document.documentElement.scrollHeight;
 
   columns.length = 0;
   const columnsCount = canvas.width / FONT_SIZE;

@@ -79,17 +79,13 @@ h6 {
   font-weight: 400;
 }
 
-html,
-body {
-  overflow: hidden;
-}
 /* RESET */
 
 #canvas {
   position: absolute;
   background: #000;
   width: 100%;
-  height: 100%;
+
   top: 0;
   left: 0;
 }
