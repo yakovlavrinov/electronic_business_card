@@ -115,7 +115,11 @@
     width: 300px;
   }
   .social h2 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+
+  .social p {
+    font-size: 18px;
   }
 
   .social a {
