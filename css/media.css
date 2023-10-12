@@ -1,4 +1,4 @@
-@media (max-width: 1360px) {
+/* @media (max-width: 1360px) {
   .social {
     width: 780px;
   }
@@ -65,6 +65,86 @@
     top: 50%;
     flex-direction: column-reverse;
     margin: 15px;
+    transform: translate(-55%, -50%);
+    gap: 10px;
+  }
+  .avatar__contacts {
+    margin: auto;
+  }
+} */
+
+@media (max-width: 1360px) {
+  .social {
+    width: 780px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .social {
+    width: 650px;
+  }
+  .social h2 {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .social {
+    width: 550px;
+  }
+  .social h2 {
+    font-size: 65px;
+  }
+  .volume {
+    top: auto;
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 920px) {
+  .social {
+    width: 450px;
+  }
+  .social h2 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 850px) {
+  .social {
+    width: 300px;
+  }
+  .social h2 {
+    font-size: 35px;
+  }
+
+  .social a {
+    margin: 0 20%;
+  }
+}
+
+@media (max-width: 690px) {
+  .none {
+    display: none;
+  }
+
+  .social h2 {
+    line-height: 70px;
+  }
+
+  .social a {
+    margin: 0 20%;
+  }
+
+  .container {
+    top: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    margin: 15px;
+    -webkit-transform: translate(-55%, -50%);
+    -ms-transform: translate(-55%, -50%);
     transform: translate(-55%, -50%);
     gap: 10px;
   }
